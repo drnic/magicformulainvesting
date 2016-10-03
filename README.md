@@ -5,19 +5,21 @@ I read [Little Book that Still Beats the Market](https://www.amazon.com/Little-B
 So I wrote this little app to fetch the results and display them as a table to the terminal.
 
 ```
-+----------------------------------+--------+------------+------------+--------------------------+
-| Name                             | Ticket | Market Cap | Price From | Most Recent Quarter Data |
-+----------------------------------+--------+------------+------------+--------------------------+
-| Accretive Health Inc             | ACHI   | 261.62     | 09/30      | 06/30                    |
-| Argan Inc                        | AGX    | 889.74     | 09/30      | 07/31                    |
-| Avid Technology Inc.             | AVID   | 316.18     | 09/30      | 06/30                    |
-| Barrett Business Services Inc    | BBSI   | 357.69     | 09/30      | 06/30                    |
-| BP Prudhoe Bay Royalty Trust     | BPT    | 399.32     | 09/30      | 06/30                    |
-| Capella Education Co             | CPLA   | 673.67     | 09/30      | 06/30                    |
-| Cherokee Inc                     | CHKE   | 89.73      | 09/30      | 07/31                    |
-| Cisco Systems Inc                | CSCO   | 158,790.30 | 09/30      | 07/31                    |
-| Deluxe Corp                      | DLX    | 3,258.14   | 09/30      | 06/30                    |
++----------------------------------+--------+------------+------------+---------------------+--------------------------------------+
+| Name                             | Ticker | Market Cap | Price From | Recent Quarter Data | Overview                             |
++----------------------------------+--------+------------+------------+---------------------+--------------------------------------+
+| Accretive Health Inc             | ACHI   | 261.62     | 09/30      | 06/30               | https://finance.yahoo.com/quote/ACHI |
+| Argan Inc                        | AGX    | 889.74     | 09/30      | 07/31               | https://finance.yahoo.com/quote/AGX  |
+| Avid Technology Inc.             | AVID   | 316.18     | 09/30      | 06/30               | https://finance.yahoo.com/quote/AVID |
+| Barrett Business Services Inc    | BBSI   | 357.69     | 09/30      | 06/30               | https://finance.yahoo.com/quote/BBSI |
+| BP Prudhoe Bay Royalty Trust     | BPT    | 399.32     | 09/30      | 06/30               | https://finance.yahoo.com/quote/BPT  |
+| Capella Education Co             | CPLA   | 673.67     | 09/30      | 06/30               | https://finance.yahoo.com/quote/CPLA |
+| Cherokee Inc                     | CHKE   | 89.73      | 09/30      | 07/31               | https://finance.yahoo.com/quote/CHKE |
+| Cisco Systems Inc                | CSCO   | 158,790.30 | 09/30      | 07/31               | https://finance.yahoo.com/quote/CSCO |
+| Deluxe Corp                      | DLX    | 3,258.14   | 09/30      | 06/30               | https://finance.yahoo.com/quote/DLX  |
 ```
+
+For iTerm2/MacOS users, hold down Command key to open any URL into the browser.
 
 To install using RubyGems:
 
