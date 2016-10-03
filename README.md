@@ -1,6 +1,6 @@
 # Magic Formula Investing website
 
-I read Little Book that Still Beats the Market, it referenced https://www.magicformulainvesting.com, and I found it an awkward website to work with. I couldn't click on the results to copy/paste them, etc.
+I read [Little Book that Still Beats the Market](https://www.amazon.com/Little-Book-Still-Beats-Market/dp/0470624159), it references https://www.magicformulainvesting.com as an companion site. I found the site awkward to work with; I couldn't click on the results to copy/paste them, etc.
 
 So I wrote this little app to fetch the results and display them as a table to the terminal.
 
