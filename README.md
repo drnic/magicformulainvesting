@@ -19,6 +19,12 @@ So I wrote this little app to fetch the results and display them as a table to t
 | Deluxe Corp                      | DLX    | 3,258.14   | 09/30      | 06/30                    |
 ```
 
+To install using RubyGems:
+
+```
+gem install magicformulainvesting
+```
+
 To use, setup your email/password as environment variables:
 
 ```
