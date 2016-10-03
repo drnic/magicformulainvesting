@@ -29,7 +29,7 @@ module MagicFormulaInvesting
         data = row.search("td")
         quote = MagicFormulaInvesting::CompanyQuote.new
         quote.name = data[0].text
-        quote.ticket = data[1].text
+        quote.ticker = data[1].text
         quote.market_cap = data[2].text
         quote.price_from = data[3].text
         quote.most_recent_quarter_data = data[4].text
@@ -37,9 +37,9 @@ module MagicFormulaInvesting
       end
     end
 
-    table = Terminal::Table.new :headings => ['Name', 'Ticket', 'Market Cap', 'Price From', 'Most Recent Quarter Data']
+    table = Terminal::Table.new :headings => ['Name', 'Ticker', 'Market Cap', 'Price From', 'Recent Quarter Data', 'Overview']
     company_quotes.each do |quote|
-      table << [quote.name, quote.ticket, quote.market_cap, quote.price_from, quote.most_recent_quarter_data]
+      table << quote.table_row
     end
     puts table
   end
